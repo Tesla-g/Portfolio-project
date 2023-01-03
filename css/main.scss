@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-blue: #007af3;
+  --section-feature-color: #20272e;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+.navbar {
+  background-color: white;
+
+  padding: 0.8em;
+
+  nav {
+    display: none;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    // anchor decoration
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-size: 1.5em;
+
+    span {
+      color: var(--primary-blue);
+    }
+  }
+  .mobile-menu {
+    //adding a cursor pointer
+    cursor: pointer;
+  }
+}
+
+a {
+  color: #444444;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+section {
+  padding: 2rem 1em;
+}
+.hero {
+  text-align: center;
+}
+.left-col {
+  .sub-head {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #808080;
+    letter-spacing: 0.3em;
+  }
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 0.3em;
+  }
+  .hero-cta-btn {
+    background-color: var(--primary-blue);
+    padding: 0.6em 1.3em;
+    color: white;
+    font-weight: bold;
+    border-radius: 5em;
+    font-size: 1.5em;
+    display: inline-block;
+  }
+
+  .hero-cta-watch {
+    display: block;
+    margin-top: 2em;
+  }
+}
+
+.hero-img {
+  width: 70%;
+  margin-top: 3em;
+}
+
+.features-section {
+  background-color: var(--section-feature-color);
+  color: white;
+}
+
+.feature-list {
+  margin: 0;
+  padding-left: 0.2em;
+
+  li {
+    margin-bottom: 1em;
+    margin-left: 2em;
+    font-size: 1.1em;
+  }
+}
